@@ -1,0 +1,133 @@
+
+.navbar{
+    background-color: #1B1B1B;
+}
+
+.navbar .navbar-brand{
+
+font-weight: bolder;
+color: white;
+
+}
+.navbar svg{
+color:white;
+}
+
+.navbar a{
+color:white;
+}
+
+.navbar .nav-item:hover {
+background-color: #232323;
+border:none ;
+outline: none;
+border-radius:7px;
+
+}
+
+.hero{
+
+  background: linear-gradient(to bottom, #4a4a4a, #2a2a2a, #0d0d0d);
+
+    background-size: cover;
+    
+}
+.hero h1{
+    white-space: pre-line;
+
+}
+.hero  .left-side p{
+
+    white-space: pre-line; 
+    font-size: larger;
+
+}
+.hero .right-side p{
+        white-space: pre-line; 
+
+}
+
+.hero .right-side h2{
+        white-space: pre-line; 
+
+font-size:x-large ;
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+.hero .img{
+    display: none;
+  }
+  .hero .right-side p{
+    font-size: medium;
+       }
+       .hero .right-side h2{
+        font-size: large;
+       }
+       .hero .right-side{
+        margin-left: 50px;
+       }
+
+.hero .left-side p {
+  font-size: medium;
+}
+.hero .left-side h1{
+font-size: larger;
+}
+}
+@media screen and (max-width:1200px) 
+{
+.hero .right-side{
+display: none;
+}
+
+}
+
+.whypc{
+
+  padding: 47px 0px;
+  background-color: #161616;
+}
+.whypc p{
+    white-space: pre-line;
+    color: #7C94A1; 
+}
+.whypc h2{
+  font-size: x-large;
+  color: white;
+}
+.whypc svg{
+  color:white;
+}
+.whypc .why{
+
+background-color: #121212;
+padding: 40px 25px;
+}
+
+.why {
+width:300px;
+}
+
+@media screen and (max-width:1000px) {
+
+  .whypc .why h2{
+    font-size: medium;
+  }
+  .whypc .why p{
+    font-size: small;
+  }
+  .why {
+    height: auto;
+  }
+
+
+
+}
+
+
+
+
+
