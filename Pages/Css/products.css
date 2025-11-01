@@ -1,0 +1,59 @@
+body{
+
+background-color: #121212;
+
+}
+.navbar .navbar-brand{
+
+font-weight: bolder;
+
+
+}
+
+.navbar{
+
+    background-color: #1B1B1B;
+
+}
+.navbar .nav-item:hover {
+background-color: #232323;
+border:none ;
+outline: none;
+border-radius:7px;
+
+}
+
+
+
+
+.products .card{
+
+    background-color: #1B1B1B;
+  
+}
+
+.products .card{
+
+transition: transform 0.5s ease;
+
+
+}
+  .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.products .card img{
+
+    
+  height: 180px;
+
+}
+
+.products .search{
+    background-color: #1B1B1B;
+}
+.products input::placeholder {
+  color: white; 
+}
+ 
