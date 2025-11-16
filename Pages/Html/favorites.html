@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-   <!--BootStrab 5.3-->
+    <title>Favorites</title>
+  <!--BootStrab 5.3-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,13 +12,16 @@
       crossorigin="anonymous"
     />
 
-     <!--css files-->
-    <link rel="stylesheet" href="../Css/cart.css"/>
+ <!--css files-->
+    <link rel="stylesheet" href="../Css/favorits.css"/>
+
+
 
 </head>
 <body>
-
-     <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0">
+    
+    
+<nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0">
       <div class="container">
         <a class="navbar-brand " href="../../index.html">
           <svg
@@ -108,6 +111,14 @@
           </ul>
 
           <ul class="navbar-nav ms-auto gap-4">
+
+
+  <li class="nav-item d-flex">
+              <a class="nav-link active" aria-current="page" href="../Html/favorites.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-icon lucide-heart"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
+              </a>
+            </li>
+
             <li class="nav-item d-flex">
               <a class="nav-link active" aria-current="page" href="../Html/cart.html"
                 ><svg
@@ -165,33 +176,32 @@
 
     <main>
 
-        <section class="is-empty d-flex  align-items-center justify-content-center  ">
-           
-                <div class="empty text-center bg-dark rounded-4 p-5 border border-dark">
-                       
-                            <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="50"
-                  height="50"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-shopping-cart-icon lucide-shopping-cart text-dark-emphasis mb-2 "
-                >
-                  <circle cx="8" cy="21" r="1" />
-                  <circle cx="19" cy="21" r="1" />
-                  <path
-                    d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"
-                  />
-                </svg>
-                    <h3 class="text-white fw-bold">Your cart is empty</h3>    
-                   <p> Add some products to your cart to get started.</p>
-                    <a class="btn btn-light mt-2 fw-bold" href="/Pages/HTml/products.html" >Browse Products</a>
+        <section class="fav-empty py-5">
+            <div class="container">
+              <h2 class="text-white">My Favorites</h2>          
+                <p class="mb-5">Your saved products (0 items)</p>
+
+                <div class="border-dark bg-dark py-5   rounded-2 text-center">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-3 lucide text-white lucide-heart-icon lucide-heart"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
+                    <h3 class="text-white">No favorites yet</h3>
+                    <p>Start browsing and add products to your favorites to see them here.</p>
+                    <a class="btn btn-light mt-2 fw-bold" href="../Html/products.html">Browse Products</a>
+
+
+
+
 
                 </div>
+
+
+
+
+
+
+            </div>
+
+
+
 
         </section>
 
@@ -199,12 +209,30 @@
 
 
 
+
+
+
+
+
+
     </main>
-    
 
 
 
- <!--BootStrab 5.3-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--BootStrab 5.3-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
